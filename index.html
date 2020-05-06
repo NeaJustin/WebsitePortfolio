@@ -9,21 +9,17 @@
     <script src="helperJS.js"></script>
 </head>
 <body>
-    <img src="SanBernardino.jpg" alt="San Bernardino" class="center" />
-    <p class="center"><b>Image provided by California State University San Bernardino.</b></p>
-    <div class="topnav" id="myTopNav">
-        <div class="center">
-            <a href="index.html" class="active">Home</a>
-            <a href="Education.html">Education</a>
-            <a href="Projects.html">Projects</a>
-            <a href="ProfessionalExperience.html">Professional Experience</a>
-            <a href="Future.html">Future Plans</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+    <div class="sidebar" id="mySidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="Education.html">Education</a>
+        <a href="Projects.html">Projects</a>
+        <a href="ProfessionalExperience.html">Professional Experience</a>
+        <a href="Future.html">Future Plans</a>
     </div>
-    <div>
+    <div id="main">
+        <button class="openBtn" onclick="openNav()">&#9776;</button>
+        <h2>Collapsed Sidebar</h2>
         <h3>
             Introduction:
         </h3>
@@ -37,9 +33,8 @@
             <br />
             One of them being about Neural Networks and Machine Learning. Specifically Deep Learning. Going deeper into the subject I started to learn about different languages
             that can have many frameworks to help with this type of interest. After learning about it I started to study Python and its libraries and frameworks such as PyTorch,
-            TensorFlow, MatPlotLib, Numpy, etc... in how they are used for specific puposes.
+            TensorFlow, MatPlotLib, Numpy, etc... in how they are used for spe                      `    12111                                              cific puposes.
         </p>
     </div>
-    <p>Hosted using AWS3.</p>
-</body>
+</body  >
 </html>
